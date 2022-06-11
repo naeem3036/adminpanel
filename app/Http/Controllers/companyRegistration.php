@@ -9,6 +9,8 @@ class companyRegistration extends Controller
 {
     public function companyRegistration()
     {
+
+        //dd('a');
         return view('companyRegistration');
     }
 
