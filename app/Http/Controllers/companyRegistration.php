@@ -12,10 +12,11 @@ class companyRegistration extends Controller
         return view('companyRegistration');
     }
 
+
     public function registerCompany(Request $request)
     {
         // Server side Form data Vlidation
-        
+
         $request->validate([
                 'companyname'=>'required',
                 'email'=>'email',
